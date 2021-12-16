@@ -26,6 +26,12 @@ Install packages
 
 ```composer update```
 
+rename **.env-example** to **.env**
+
+Generate new key
+
+```php artisan key:generate```
+
 Create new Database and add to **.env** file
 
 Run Migration
