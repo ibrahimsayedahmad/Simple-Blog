@@ -16,8 +16,9 @@ The posts from this feed should be saved under a designated, system-created user
 Our customer is a very popular blogger, who generates between 2 and 3 posts an hour. The site which powers the feed linked above is a very popular one (several million visitors a month), and we are expecting a similar level of traffic on our site. One of our goals is to minimise the strain put on our system during traffic peaks, while also minimising the strain we put on the feed server.
 
 # Features
-Add, import post
-Basic role-permissions system to assign permissions to users (you can add/delete permissions through configuration file config/myblog.php)
+1.Add, import post
+
+2.Basic role-permissions system to assign permissions to users (you can add/delete permissions through configuration file config/myblog.php)
 
 # Installation
 Download all files to your computer
