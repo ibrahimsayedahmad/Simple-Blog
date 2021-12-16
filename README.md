@@ -20,10 +20,13 @@ Add, import post
 Basic role-permissions system to assign permissions to users (you can add/delete permissions through configuration file config/myblog.php)
 
 # Installation
-Download all files to your local server
+Download all files to your computer
+
 Install packages
 
 ```composer update```
+
+Create new Database and add to **.env** file
 
 Run Migration
 
@@ -34,3 +37,5 @@ Seed DB with admin user
 ```php artisan db:seed```
 
 admin user will be created with email: **admin@system.com** and password **adpassmin**
+
+launch the application
