@@ -22,9 +22,15 @@ Basic role-permissions system to assign permissions to users (you can add/delete
 # Installation
 Download all files to your local server
 Install packages
-`composer update`
+
+```composer update```
+
 Run Migration
-`php artisan migrate`
+
+```php artisan migrate```
+
 Seed DB with admin user
-`php artisan db:seed`
+
+```php artisan db:seed```
+
 admin user will be created with email: **admin@system.com** and password **adpassmin**
